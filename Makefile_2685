@@ -1,0 +1,8 @@
+all:
+	gcc server_2685.c -o server -lssl -lcrypto
+
+run:
+	./server
+
+clean:
+	rm -f server
